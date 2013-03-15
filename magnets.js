@@ -6,7 +6,9 @@ function SingleMagnet(ref) {
   this.guiObj.addClass("magnet");
   var self = this;
   var saveCurrentPos = function() {
-    ref.update({left: self.guiObj.position().left, top: self.guiObj.position().top});
+    var left = self.guiObj.position().left >= 0 ? self.guiObj.position().left : 0;
+    var top = self.guiObj.position().top >= 0 ? self.guiObj.position().top : 0;
+    ref.update({left: left, top: top});
   };
   this.guiObj.draggable({
     containment: $("#refrigerator"),
@@ -29,7 +31,6 @@ SingleMagnet.prototype.update = function (snapshot) {
   this.guiObj.css({
     left: inf.left ? inf.left : 0,
     top: inf.top ? inf.top : 0,
-    display: 'inline-block',
     border: inf.active ? "1px solid orange" : "1px solid black"
   });
 }
