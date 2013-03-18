@@ -1,1 +1,122 @@
 Scala
+neckbeard
+semicolon
+minified
+compiler
+compile
+dynamically-typed
+statically-typed
+crash
+segfault
+performance
+binary
+source
+code
+sleep
+late night
+pair
+programming
+source control
+git
+svn
+mercurial
+Stack Overflow
+Googling it
+pointers
+stack
+array
+tree
+Red-Black tree
+buffer
+queue
+process
+ran
+run
+built
+recompile
+JavaScript
+Rust
+Lua
+braces
+syntax
+profiler
+run
+debug
+instrument
+stats
+Dart
+GWT
+Python
+Perl
+Ruby
+PHP
+Java
+Lisp
+Berkeley
+Brendan Eich
+curly braces
+parenthesis
+add
+delete
+remove
+CRUD
+hate
+love
+can't stand
+religious
+zealot
+library
+.o
+.a
+App Store
+CDN
+online
+offline
+local
+remote
+hard drive
+SSD
+IDE
+Eclipse
+TextMate
+open
+close
+try
+modify
+fork
+branch
+clone
+copy
+patent
+use
+only
+breakpoint
+step
+over
+hotswap
+JIT
+Open Source
+closed
+standards
+compliant
+extension
+browser
+runtime
+virtual
+machine
+dedicated
+ring
+hash
+dictionary
+lookup
+database
+TCP
+socket
+type
+Dvorak
+keyboard
+mouse
+touch
+iOS
+Androud
+Windows

@@ -5,39 +5,39 @@ var outputDir = "output";
 var outputFiles = [
   {
     name: "hn1.json",
-    src: ["common.json", "hn.json"]
+    src: ["common.txt", "hn.txt"]
   },
   {
     name: "hn2.json",
-    src: ["common.json", "hn.json"]
+    src: ["common.txt", "hn.txt"]
   },
   {
     name: "hn3.json",
-    src: ["common.json", "hn.json"]
+    src: ["common.txt", "hn.txt"]
   },
   {
     name: "hn4.json",
-    src: ["common.json", "hn.json"]
+    src: ["common.txt", "hn.txt"]
   },
   {
     name: "programming.json",
-    src: ["common.json", "programming.json"]
+    src: ["common.txt", "programming.txt"]
   },
   {
     name: "startups.json",
-    src: ["common.json", "startups.json"]
+    src: ["common.txt", "startups.txt"]
   },
   {
     name: "sf.json",
-    src: ["common.json", "sf.json"]
+    src: ["common.txt", "sf.txt"]
   },
   {
     name: "nyc.json",
-    src: ["common.json", "nyc.json"]
+    src: ["common.txt", "nyc.txt"]
   },
   {
     name: "firebase.json",
-    src: ["common.json", "firebase.json"]
+    src: ["common.txt", "firebase.txt"]
   }
 ]
 
@@ -53,7 +53,7 @@ function start() {
 }
 
 function generateFile(name, sources) {
-  loadAndMergeWords(sources, function () {
+  loadAndMergeWords(sources, function (words) {
     var outData = [];
     for (var id in words) {
       outData.push({
