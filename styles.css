@@ -30,10 +30,10 @@ h3 {
 .magnet {
   position: absolute !important;
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
   background-color: #fff;
   border: 1px solid black;
-  padding: 4px;
+  padding: 3px;
   box-shadow: 3px 3px 4px #000;
 }
 #poweredByDiv {
