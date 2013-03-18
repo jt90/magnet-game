@@ -3,6 +3,6 @@ magnet-game
 
 A refrigerator magnet game built to demonstrate the real-time capabilities of [Firebase](https://www.firebase.com).
 
-##[Live Demo](http://magnets.firebae.com)
+###[Live Demo](http://magnets.firebae.com)
 
 This game was inspired by an app built by [Neil Pomerleau](http://www.neilpomerleau.com/).
