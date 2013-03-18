@@ -1,5 +1,5 @@
 var ANIMATION_PERIOD = 800;
-var FRAME_PERIOD = 50;
+var FRAME_PERIOD = 40;
 
 /**
  * This class manages a single "refrigerator" which can have many magnets.
