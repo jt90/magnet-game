@@ -1,0 +1,12 @@
+{
+  "rules" : {
+    ".read":true,
+    "$mid": {
+      "pos": {
+        "l": {
+          ".validate":"newData.isNumber() && "
+        }
+      }
+    } 
+  }
+}
