@@ -58,8 +58,10 @@ function generateFile(name, sources) {
     for (var id in words) {
       outData.push({
         text:words[id],
-        l:Math.floor(Math.random() * 800),
-        t:Math.floor(Math.random() * 600)
+        pos: {
+          l:Math.floor(Math.random() * 800),
+          t:Math.floor(Math.random() * 600)
+        }
       });
     }
     var toWrite = JSON.stringify(outData, undefined, 2);
