@@ -3,10 +3,17 @@
     ".read":true,
     "$mid": {
       "pos": {
+        ".write":"newData.hasChildren(['l', 't'])",
         "l": {
-          ".validate":"newData.isNumber() && "
+          ".validate":"newData.isNumber() && newData.val() >= 0 && newData.val() <= 1024"
+        },
+        "t": {
+          ".validate":"newData.isNumber() && newData.val() >= 0 && newData.val() <= 800"
+        },
+        "$other": {
+          ".validate":false
         }
       }
-    } 
+    }
   }
 }
